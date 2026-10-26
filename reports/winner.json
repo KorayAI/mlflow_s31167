@@ -1,0 +1,17 @@
+{
+  "run_id": "7760b996844c4c7e9adb714ce95c53ee",
+  "model": "logistic_regression",
+  "train_accuracy": 0.9882629107981221,
+  "train_f1": 0.9841269841269841,
+  "validation_accuracy": 0.986013986013986,
+  "validation_f1": 0.9811320754716981,
+  "dataset_sha256": "cd1c796fd1753b7ca60a00b1bd4a5adc090c87f69be2ca2e742cedf77bb260a2",
+  "split_sha256": "6b66cfb585cf985253a3367e72f86c631f3c7f8ed3e19401d0e237b07f427937",
+  "batch_id": "24599d8065b3416fa732dc62d8728bb5",
+  "promotion_rule": "Highest validation malignant-class F1, then accuracy, then alphabetical model name; F1 must be >= 0.90. Selection is within this batch, not against prior champions.",
+  "rerun_command": "python train.py --config-from-run 7760b996844c4c7e9adb714ce95c53ee",
+  "registered_model": "breast-cancer-clf",
+  "version": 1,
+  "alias": "champion",
+  "alias_load_verified": true
+}
