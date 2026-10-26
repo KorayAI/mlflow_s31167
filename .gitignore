@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+credentials*
+*.pem
+*.key
+mlruns/
+mlartifacts/
+*.db
+*.db-*
+data/raw/
+.DS_Store
+.idea/
+.vscode/
